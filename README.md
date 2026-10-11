@@ -1,31 +1,31 @@
-# GroupDNA – Your WhatsApp Group Chat, Decoded
+# RedFlag Transactions Analysis Using SQL
 
 ## Project Overview
+This project analyzes transaction data using SQL to identify failed transactions, high-value transactions, and unusual transaction patterns.
 
-GroupDNA is a Python-based WhatsApp group chat analysis project that transforms raw chat data into meaningful insights.
+## Objectives
+- Analyze total transactions
+- Identify successful and failed transactions
+- Analyze payment methods
+- Find cities with more failed transactions
+- Identify high-value transactions
 
-## Key Features
+## Tools Used
+- MySQL Server
+- MySQL Workbench
+- SQL
 
-- WhatsApp Chat Parser
-- Group Statistics and Overview
-- Word Frequency Analysis
-- 6×24 Activity Heatmap using NumPy
-- Response Speed Analysis
-- Silent Streak Detection
-- Personality Archetype Analysis
-- Final Analysis Report
+## Analysis Performed
+- Transaction status analysis
+- Payment mode analysis
+- City-wise failed transaction analysis
+- High-value transaction analysis
+- User activity analysis
 
-## Technologies Used
+## Conclusion
+This project demonstrates how SQL helps analyze transaction data and identify unusual patterns for further investigation. These patterns do not confirm fraud.
 
-- Python
-- NumPy
-- File Handling
-- Data Analysis
-
-## Objective
-
-To analyse WhatsApp group chat data and extract useful insights using Python programming and NumPy.
-
-## Author
-
-Asothai D
+## Project Files
+- RedFlag_Transaction_Analysis.sql
+- RedFlag_Transactions_Analysis_Report.docx
+- SUCCESS_FAILED.png
